@@ -18,7 +18,7 @@ export default function HowToPage() {
                     {/* Step 1 */}
                     <div className="bg-secondary/30 p-8 rounded-3xl border border-black/[0.04] space-y-4 relative overflow-hidden group">
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <div className="w-12 h-12 rounded-xl bg-white dark:bg-black border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
+                        <div className="w-12 h-12 rounded-xl bg-white border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
                             1
                         </div>
                         <h3 className="text-lg font-semibold">Upload Image</h3>
@@ -30,7 +30,7 @@ export default function HowToPage() {
                     {/* Step 2 */}
                     <div className="bg-secondary/30 p-8 rounded-3xl border border-black/[0.04] space-y-4 relative overflow-hidden group">
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <div className="w-12 h-12 rounded-xl bg-white dark:bg-black border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
+                        <div className="w-12 h-12 rounded-xl bg-white border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
                             2
                         </div>
                         <h3 className="text-lg font-semibold">Auto-Process</h3>
@@ -42,7 +42,7 @@ export default function HowToPage() {
                     {/* Step 3 */}
                     <div className="bg-secondary/30 p-8 rounded-3xl border border-black/[0.04] space-y-4 relative overflow-hidden group">
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <div className="w-12 h-12 rounded-xl bg-white dark:bg-black border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
+                        <div className="w-12 h-12 rounded-xl bg-white border-2 border-primary/10 shadow-[2px_2px_0_0_rgba(0,0,0,0.05)] flex items-center justify-center text-xl font-bold text-foreground">
                             3
                         </div>
                         <h3 className="text-lg font-semibold">Copy & Use</h3>

@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OCR1
 
-## Getting Started
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
 
-First, run the development server:
+> **Advanced, privacy-first optical character recognition directly in your browser.**
+
+---
+
+### [🚀 Live Demo](https://ocr.tor.biz.id)
+
+---
+
+## 📖 About
+
+**OCR1** is a modern, client-side OCR (Optical Character Recognition) web application designed for speed, privacy, and ease of use. Unlike traditional tools that upload your sensitive documents to a cloud server, OCR1 processes everything locally on your device using WebAssembly (WASM) and Tesseract.js.
+
+Your data never leaves your browser.
+
+## ✨ Key Features
+
+- **🔒 100% Private**: Zero server-side processing. Your files remain on your device.
+- **⚡ Instant Results**: Powered by Tesseract.js for fast, accurate text extraction.
+- **💎 Premium UI**: Sleek Glassmorphism aesthetic with modern, tactile interactions.
+- **📱 Responsive**: Fully optimized for desktop, tablet, and mobile.
+- **📂 Easy Export**: Copy text to clipboard or download as `.txt` with one click.
+- **🌍 Multi-Format**: Supports PNG, JPG, BMP, and WebP.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **OCR Engine**: [Tesseract.js](https://tesseract.projectnaptha.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 🚀 Getting Started
+
+Clone the repository and run the development server:
 
 ```bash
+git clone https://github.com/wahibirawan/OCR1.git
+cd OCR1
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.

@@ -68,11 +68,11 @@ export function Dropzone({ onFileSelect, disabled }: DropzoneProps) {
         <div
             className={cn(
                 "relative rounded-3xl transition-all duration-500 cursor-pointer overflow-hidden group min-h-[280px] md:min-h-[400px] flex flex-col",
-                "bg-white/80 dark:bg-black/40 backdrop-blur-md border border-black/10 dark:border-white/10 shadow-sm transition-shadow hover:shadow-md",
+                "bg-white/80 backdrop-blur-md border border-black/10 shadow-sm transition-shadow hover:shadow-md",
                 // Premium Interaction Layers
                 isDragging
                     ? "ring-2 ring-primary/50 border-primary/30 bg-primary/5 scale-[1.02]"
-                    : "hover:border-primary/40 hover:bg-white/90 dark:hover:bg-black/50",
+                    : "hover:border-primary/40 hover:bg-white/90",
 
                 preview ? "border-transparent" : "",
                 disabled && "opacity-60 cursor-not-allowed hover:bg-white/60"
@@ -112,7 +112,7 @@ export function Dropzone({ onFileSelect, disabled }: DropzoneProps) {
                     </div>
                 ) : (
                     <div className="flex-1 flex flex-col items-center justify-center p-6 md:p-8 text-center">
-                        <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white dark:bg-white/5 flex items-center justify-center mb-6 shadow-sm border border-black/[0.03]">
+                        <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white flex items-center justify-center mb-6 shadow-sm border border-black/[0.03]">
                             <ImageIcon className="h-8 w-8 md:h-10 md:w-10 text-muted-foreground/60" />
                         </div>
                         <h3 className="text-lg md:text-xl font-medium mb-2 text-foreground">Upload image</h3>

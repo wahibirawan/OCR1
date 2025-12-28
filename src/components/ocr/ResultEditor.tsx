@@ -34,7 +34,7 @@ export function ResultEditor({ text, isLoading, progress, status }: ResultEditor
     const showPlaceholder = !text && !isLoading;
 
     return (
-        <div className="flex flex-col h-full min-h-[400px] rounded-3xl overflow-hidden transition-all duration-500 bg-white/80 dark:bg-black/40 backdrop-blur-md border border-black/10 dark:border-white/10 shadow-sm transition-shadow hover:shadow-md hover:border-primary/30">
+        <div className="flex flex-col h-full min-h-[400px] rounded-3xl overflow-hidden transition-all duration-500 bg-white/80 backdrop-blur-md border border-black/10 shadow-sm transition-shadow hover:shadow-md hover:border-primary/30">
 
             {/* Toolbar - Floating/Integrated */}
             <div className="flex items-center justify-between px-6 py-4">
@@ -47,7 +47,7 @@ export function ResultEditor({ text, isLoading, progress, status }: ResultEditor
                         size="sm"
                         onClick={handleCopy}
                         disabled={!text}
-                        className="rounded-full px-4 h-9 text-xs font-medium text-muted-foreground hover:bg-black/5 dark:hover:bg-white/5 hover:text-foreground"
+                        className="rounded-full px-4 h-9 text-xs font-medium text-muted-foreground hover:bg-black/5 hover:text-foreground"
                     >
                         {copied ? <Check className="w-4 h-4 mr-2 text-emerald-600" /> : <Copy className="w-4 h-4 mr-2" />}
                         {copied ? 'Copied' : 'Copy Text'}
@@ -57,7 +57,7 @@ export function ResultEditor({ text, isLoading, progress, status }: ResultEditor
                         size="sm"
                         onClick={handleDownload}
                         disabled={!text}
-                        className="rounded-full px-4 h-9 text-xs font-medium text-muted-foreground hover:bg-black/5 dark:hover:bg-white/5 hover:text-foreground"
+                        className="rounded-full px-4 h-9 text-xs font-medium text-muted-foreground hover:bg-black/5 hover:text-foreground"
                     >
                         <Download className="w-4 h-4 mr-2" />
                         Save .txt
@@ -67,7 +67,7 @@ export function ResultEditor({ text, isLoading, progress, status }: ResultEditor
 
             <div className="relative flex-1 bg-background m-2 mt-0 rounded-2xl shadow-sm border border-black/[0.04]">
                 {isLoading ? (
-                    <div className="absolute inset-0 flex flex-col items-center justify-center p-8 z-10 bg-white/80 dark:bg-black/80 backdrop-blur-[1px] rounded-2xl">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center p-8 z-10 bg-white/80 backdrop-blur-[1px] rounded-2xl">
                         <div className="w-full max-w-xs space-y-4 text-center">
                             <div className="relative h-1.5 w-full bg-secondary rounded-full overflow-hidden">
                                 <div

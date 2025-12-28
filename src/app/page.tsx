@@ -30,7 +30,7 @@ export default function Home() {
 
             {/* Main Workspace */}
             <div className="relative">
-                <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-8 items-stretch">
+                <div className="relative bg-secondary/30 border border-black/[0.04] rounded-3xl md:rounded-[2.5rem] p-4 md:p-12 overflow-hidden grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-8 items-stretch">
 
                     {/* Left: Input Module */}
                     <div className="flex flex-col gap-4">
@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
 
                         {/* Status Badge */}
-                        <div className="absolute -bottom-8 whitespace-nowrap">
+                        <div className="absolute inset-0 pointer-events-none">
                             {isProcessing && (
                                 <span className="flex items-center gap-2 text-[10px] uppercase tracking-wider font-bold text-primary animate-in fade-in zoom-in">
                                     <Sparkles className="w-3 h-3" />
